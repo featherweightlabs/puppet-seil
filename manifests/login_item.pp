@@ -16,6 +16,7 @@
 #
 #   ensure - 'present' or 'absent'. Defaults to 'present'.
 class seil::login_item($ensure = 'present') {
+  include seil
   include seil::config
 
   osx_login_item { 'Seil':

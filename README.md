@@ -10,9 +10,10 @@ Installs [Seil](https://pqrs.org/macosx/keyremap4macbook/seil.html.en) on your M
 ## Usage
 
 ```puppet
+# Just install seil
 include seil
 
-# add seil to login items:
+# Install seil and add seil to login items:
 include seil::login_item
 
 # change the left control to F19:
